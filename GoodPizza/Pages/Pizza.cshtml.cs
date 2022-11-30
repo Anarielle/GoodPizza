@@ -6,7 +6,7 @@ namespace GoodPizza.Pages
 {
     public class PizzaModel : PageModel
     {
-        public List<PizzasModel> fakePizzaDB = new List<PizzasModel>()
+        public List<PizzasModel> fakePizzaDB = new List<PizzasModel>
         {
             new PizzasModel() {
                 ImageTitle = "Margerita",
