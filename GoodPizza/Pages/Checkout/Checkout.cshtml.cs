@@ -29,7 +29,7 @@ namespace GoodPizza.Pages.Checkout
                 ImageTitle = "Create"; 
             }
 
-            PizzaOrder pizzaOrder = new PizzaOrder();
+            PizzaOrder pizzaOrder = new PizzaOrder(); 
             pizzaOrder.PizzaName = PizzaName;
             pizzaOrder.BasePrice = PizzaPrice;
 
